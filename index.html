@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+
+    <link rel="stylesheet" href="Styles/MainStyle.css">
+    <script src="Scripts/MainScript.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+        <h1>Hello GitHub</h1>
+        <main>
+            <h3>Команды создания и удаления теки:</h3>
+            <ul>
+                <li><span>cd</span> <i>или указать папку в текущей директории, или прописать полный путь</i>: change directory (изменяет путь директории)</li>
+                <li><span>dir</span>: directory (отображает список файлов выбранной теки)</li>
+                <li><span>mkdir</span> <i>имя теки</i> || md имя теки: make directory (создает новую теку)</li>
+                <li><span>rmdir</span> <i>имя теки</i> || <span>rd</span> <i>имя теки</i>: remove directory (удаляет теку, если она пустая)</li>
+                <li><span>rmdir /S</span> <i>имя теки</i> || <span>rd /S</span> <i>имя теки</i>: remove directory (удаляет теку с файлами)</li>
+            </ul>
+
+            <h3>Команды создания и удаления файла:</h3>
+            <ul>
+                <li><span>copy con</span> <i>имя файла</i>: создаёт новый файл, после введения текста нужно нажать <span>CTRL+C</bspan></li>
+                <li><span>del</span> <i>имя файла</i>: удаляет файл</li>
+                <li><span>type</span> <i>имя файла</i>: выведет текст файла</li>
+            </ul>
+
+            <h3>Команды для GIT консоли:</h3>
+            <ul>
+                <li><span>git status</span>: проверяет статус текущего коммита</li>
+                <li><span>git add</span>: добавляет файл к коммиту для его отслеживания</li>
+                <li><span>git commit -m"Comment"</span>: создаёт коммит</li>
+                <li><span>git push</span>: отправляет коммит в оттдалённый репозиторий</li>
+            </ul>
+        </main>
+</body>
+</html>

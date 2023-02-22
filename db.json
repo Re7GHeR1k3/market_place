@@ -1,46 +1,75 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"name": "Ivan",
-			"sirname": "Miskevich",
-			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
-			"balance": 1500
-		},
-		{
-			"id": 2,
-			"name": "Ivan2",
-			"sirname": "Miskevich2",
-			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
-			"balance": 2700
-		},
-		{
-			"id": 3,
-			"name": "Ivan3",
-			"sirname": "Miskevich3",
-			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
-			"balance": 6543
-		}
-	],
-
-	"products": [
-		{
-			"id": 1,
-			"name": "Arduino Uno",
-			"duscription": "Electronics",
-			"price": 90
-		},
-		{
-			"id": 2,
-			"name": "Arduino Nano",
-			"duscription": "Electronics",
-			"price": 59
-		},
-		{
-			"id": 3,
-			"name": "Arduino Leonardo",
-			"duscription": "Electronics",
-			"price": 600
-		}
-	]
+    "users": [
+        {
+            "id": 1,
+            "name": "Andriy",
+            "sirname": "Moskalenko",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/photo.png",
+            "balance": 1500
+        },
+        {
+            "id": 2,
+            "name": "Yuriy",
+            "sirname": "Berezovchuk",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat1.png",
+            "balance": 5790
+        },
+        {
+            "id": 3,
+            "name": "Cat",
+            "sirname": "Egyptian",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat2.jpg",
+            "balance": 0
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "LED display",
+            "description": "Can display 2-lines X 16-characters. Operate with 5V DC.",
+            "price": 92,
+            "author_id": 1,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/led.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Arduino UNO",
+            "description": "Brand new and high quality.",
+            "price": 180,
+            "author_id": 3,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/arduino.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "ESP8266 5V",
+            "description": "This wireless relay is based on the AI-Thinker ESP-01S WIFI module.",
+            "price": 300,
+            "author_id": 2,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/wifi.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "RGB",
+            "description": "Can make color party.",
+            "price": 92,
+            "author_id": 1,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/rgb.png"
+        },
+        {
+            "id": 5,
+            "name": "Resistor 10k Ohm",
+            "description": "Can resist the voltage. Super cool.",
+            "price": 180,
+            "author_id": 3,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/resistor.png"
+        },
+        {
+            "id": 6,
+            "name": "7-Segment Display",
+            "description": "Epic.",
+            "price": 300,
+            "author_id": 2,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/7-seg.jpg"
+        }
+    ]
 }
