@@ -13,6 +13,13 @@
 			"sirname": "Miskevich2",
 			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
 			"balance": 2700
+		},
+		{
+			"id": 3,
+			"name": "Ivan3",
+			"sirname": "Miskevich3",
+			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
+			"balance": 6543
 		}
 		{
 			"id": 3,
