@@ -1,0 +1,46 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Ivan",
+			"sirname": "Miskevich",
+			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
+			"balance": 1500
+		},
+		{
+			"id": 2,
+			"name": "Ivan2",
+			"sirname": "Miskevich2",
+			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
+			"balance": 2700
+		},
+		{
+			"id": 3,
+			"name": "Ivan3",
+			"sirname": "Miskevich3",
+			"photo_url": "https://s0.rbk.ru/v6_top_pics/media/img/9/14/754979567615149.jpg",
+			"balance": 6543
+		}
+	],
+
+	"products": [
+		{
+			"id": 1,
+			"name": "Arduino Uno",
+			"duscription": "Electronics",
+			"price": 90
+		},
+		{
+			"id": 2,
+			"name": "Arduino Nano",
+			"duscription": "Electronics",
+			"price": 59
+		},
+		{
+			"id": 3,
+			"name": "Arduino Leonardo",
+			"duscription": "Electronics",
+			"price": 600
+		}
+	]
+}
