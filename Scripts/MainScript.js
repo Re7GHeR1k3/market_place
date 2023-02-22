@@ -1,5 +1,5 @@
 let xhr = new XMLHttpRequest();
-let url = 'https://alex0palii.github.io/repository1/db.json';
+let url = 'https://my-json-server.typicode.com/Re7GHeR1k3/market_place/';
 
 xhr.open('GET', url);
 xhr.responseType = 'text';
